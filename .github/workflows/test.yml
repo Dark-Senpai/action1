@@ -34,7 +34,7 @@ jobs:
          timeout-minutes: 300
          continue-on-error: true
          run: |
-           cd encoderV2
+           cd EncoderV0.01
            docker build -t compressor . && docker run compressor
            
        - name: Loop workflow
