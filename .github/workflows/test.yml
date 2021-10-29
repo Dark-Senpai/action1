@@ -29,7 +29,7 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone -b main https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/Dark-Senpai/EncoderV0.01.git
+           git clone -b TelethonDownloader https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/Dark-Senpai/EncoderV0.01.git
        - name: Running PrivateEncoderV2.0 Bot 
          timeout-minutes: 300
          continue-on-error: true
