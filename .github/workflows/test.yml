@@ -34,9 +34,7 @@ jobs:
          timeout-minutes: 300
          continue-on-error: true
          run: |
-           cd Pyrogrambot 
-           docker build -t compressor . && docker run compressor
-           
+           python3 bot.py
        - name: Loop workflow
          continue-on-error: true
          run: |
