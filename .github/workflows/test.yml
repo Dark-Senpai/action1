@@ -34,7 +34,7 @@ jobs:
          timeout-minutes: 300
          continue-on-error: true
          run: |
-           python3 PyrogramBot
+           python3 -m bot.py
        - name: Loop workflow
          continue-on-error: true
          run: |
